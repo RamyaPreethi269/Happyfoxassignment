@@ -194,8 +194,7 @@ public void user_select_and_delete_the_status(String string) throws InterruptedE
 	Thread.sleep(2000);
 	Selectdrop(obj.getSPpage().Choose, string);
 	Thread.sleep(2000);
-	elementClick(obj.getSPpage().Ticket_Delete_btn);
-	 
+	elementClick(obj.getSPpage().Ticket_Delete_btn); 
 }
 
 @Then("User Verify {string} deleted")
